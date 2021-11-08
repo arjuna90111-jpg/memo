@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+body {
+    font-family: 'cwTeXYen';
+}
+
+.box{
+    width: 30%;
+    line-height: 10px;
+    border: 1px solid #000;
+    resize: both;
+    overflow: hidden;
+  
+}
+
+.app {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid 000;
+    padding: 20px;
+    /* box-shadow: 8px 8px 5px #444; */
+    display: flex;
+    flex-flow: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    vertical-align: middle;
+
+
+    width: fill-available;
+    width: -moz-available;
+    
+    
+}
+input{
+    height: 30px;
+}
+
+.add {
+    margin-top: 20px;
+    background-color: #000;
+    color:white;
+    box-sizing: border-box;
+    padding: 15px;
+   
+}
+
+.remove {
+    background-color: rgb(212, 101, 101);
+    margin-top: 20px;
+    color:white;
+    /* border: 0; */
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.list{
+    padding-top: 20px;
+}
+
+
+.item{
+    border-bottom:  1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
